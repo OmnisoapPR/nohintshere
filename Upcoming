@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Black & White Page</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+    p {
+      padding: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <img src="your-image.jpg" alt="Descriptive Alt Text" />
+  <p>This is some text on a black background with white font. Customize this as needed!</p>
+</body>
+</html>
